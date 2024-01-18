@@ -1,0 +1,20 @@
+heckmv [options] <files...>
+  -c/--case <case>  : specify the case (required)
+  -r/--recursive    : recurse into directories
+  -d/--include-dirs : also rename directories
+  -h/--help         : show this help message
+
+Renames files using the Rust `heck` crate for
+most casing conversions. Available cases:
+    UPPERCASE : ignores word breaks
+    lowercase : ignores word breaks
+    Title Case
+    Sentence case
+
+    UpperCamelCase
+    lowerCamelCase
+    snake_case
+    kebab-case
+    SHOUTY_SNAKE_CASE
+    SHOUTY-KEBAB-CASE
+    Train-Case

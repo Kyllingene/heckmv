@@ -1,0 +1,14 @@
+[package]
+name = "heckmv"
+version = "1.0.0"
+edition = "2021"
+
+license = "MIT"
+description = "A basic case-conversion renaming CLI tool."
+authors = ["Kyllingene"]
+repository = "https://github.com/kyllingene/heckmv"
+
+[dependencies]
+errata = { version = "2.1.0", features = ["color"] }
+heck = "0.4.1"
+sarge = "7.0.2"
